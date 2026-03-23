@@ -1,5 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  --background-primary-color: #FFF;
+  --background-secundary-color: #F5F5F5;
+  --background-terciary-color: #000;
+
+  --button-primary-color: #8F0101;
+  --button-secundary-color: #B81515;
+
+  --text-primary-color: #222;
+  --text-secundary-color: #FFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
