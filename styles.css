@@ -8,10 +8,21 @@
 
   --text-primary-color: #222;
   --text-secundary-color: #FFF;
+
+  --title-wight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1{
+  font-family: "Montserrat" sans-serif;
+  font-weight: var(--title-wight);
+  font-size: 40px;
+  color: var(--text-primary-color);
 }
