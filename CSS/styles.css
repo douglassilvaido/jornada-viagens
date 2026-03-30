@@ -52,6 +52,24 @@ nav {
   display: none;
 }
 
+.hero-img{
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/hero-mobile.jpg") ;
+  background-size: cover;
+}
+
+.hero h2 {
+  font-weight: var(--text-weight);
+  margin: 0;
+  padding: 88px 24px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+/* <<<<<<<<<<Responsividade>>>>>>>>>> */
 @media screen and (min-width: 768px) {
   
   .navigation-menu label {
@@ -73,6 +91,16 @@ nav {
   .list-links li {
     margin: 0;
   }
+
+  .hero-img{
+  height: 620px;
+  background-image: url("../img/hero-tablet.jpg") ;
+  background-size: cover;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
   
 }
 
@@ -98,7 +126,16 @@ nav {
   .navigation-menu a:hover {
     color: var(--primary-color);
   }
-  
+
+  .hero-img{
+  height: 800px;
+  background-image: url("../img/hero-desktop.jpg") ;
+  background-size: cover;
+}
+
+.hero h2 {
+  padding: 88px 160px;
+}
 }
 
 @media screen and (min-width: 1920px) {
