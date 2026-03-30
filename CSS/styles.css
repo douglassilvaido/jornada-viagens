@@ -59,6 +59,15 @@ nav {
   background-size: cover;
 }
 
+.hero h2 {
+  font-weight: var(--text-weight);
+  margin: 0;
+  padding: 88px 24px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
 
 /* <<<<<<<<<<Responsividade>>>>>>>>>> */
 @media screen and (min-width: 768px) {
@@ -87,6 +96,10 @@ nav {
   height: 620px;
   background-image: url("../img/hero-tablet.jpg") ;
   background-size: cover;
+}
+
+.hero h2 {
+    font-size: 32px;
 }
   
 }
@@ -118,6 +131,10 @@ nav {
   height: 800px;
   background-image: url("../img/hero-desktop.jpg") ;
   background-size: cover;
+}
+
+.hero h2 {
+  padding: 88px 160px;
 }
 }
 
