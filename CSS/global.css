@@ -9,7 +9,7 @@
   --text-primary-color: #222;
   --text-secundary-color: #FFF;
 
-  --title-wight: 700;
+  --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
 }
@@ -22,6 +22,10 @@
 
 body{
   font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .section-title h2{

@@ -43,7 +43,6 @@ input[type="checkbox"]:checked ~ nav {
 
 .list-links li a {
   color: var(--text-secundary-color);
-  text-decoration: none;
   font-weight: var(--menu-text-weight);
   font-size: 20px;
 }
@@ -67,6 +66,64 @@ nav {
   text-align: center;
   line-height: 1.5;
 }
+
+.offer-cards {
+
+}
+
+.card {
+  background-color: var(--background-terciary-color);
+  color: var(--text-secundary-color);
+  width: 312px;
+  height: 288px;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.card .header-card {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card .header-card h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 0;
+}
+
+.card .header-card p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  
+}
+
+.card .price-card span {
+  font-size: 32px;
+}
+
+.card .footer-card {
+  background-color: transparent;
+  width: 100%;
+}
+
+.card .footer-card a {
+  width: 100%;
+  color: var(--text-secundary-color);
+  background-color: var(--primary-color);
+  font-weight: var(--text-weight);
+  padding: 16px 80px;
+  border-radius: 12px;
+}
+
+
 
 
 /* <<<<<<<<<<Responsividade>>>>>>>>>> */
