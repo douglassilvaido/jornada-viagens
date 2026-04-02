@@ -147,6 +147,47 @@ nav {
   background-size: cover;
 }
 
+.search-category {
+  margin : 64px
+}
+
+.search-category .section-title {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.search-category .categories-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category-card {
+  background-color: var(--background-secundary-color);
+  color: var(--text-primary-color);
+  font-weight: var(--text-weight);
+  text-decoration: none;
+  text-align: center;
+  width: 312px;
+  height: 288px;
+  padding: 24px 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.categories-cards .category-card h3 {
+  font-size: 28px;
+
+}
+
+
+
 /* <<<<<<<<<<Responsividade>>>>>>>>>> */
 @media screen and (min-width: 768px) {
   .navigation-menu label {
@@ -188,6 +229,10 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .search-category .section-title {
+  width: 100%;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -239,6 +284,11 @@ nav {
 
   .card .header-card span {
     font-size: 32px;
+  }
+
+  .category {
+    width: 330px;
+    height: 288px;
   }
 }
 
