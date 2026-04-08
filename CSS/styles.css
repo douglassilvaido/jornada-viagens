@@ -181,11 +181,6 @@ nav {
 
 }
 
-.destinations {
-  margin: 0 auto;
-  width: 312px;
-}
-
 .destinations-items {
   display: flex;
   flex-direction: column;
@@ -367,7 +362,7 @@ nav {
   }
   .destinations .item .img-item {
     width: 100%;
-    height: 452px
+    height: 628px
   }
 }
 
