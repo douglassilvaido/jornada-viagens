@@ -229,6 +229,39 @@ nav {
   text-align: center;
 }
 
+.payments .content-payments {
+  display: flex;
+  flex-direction: column;
+}
+
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.payments .image-gallery .image.bag {
+  background: url(../img/gallery1-mobile.png);
+  background-size: cover;
+  height: 254px;
+}
+
+.payments .image-gallery .image.passport {
+  background: url(../img/gallery2-mobile.png);
+  background-size: cover;
+  height: 254px;
+}
+
+.payments .image-gallery .image.people {
+  background: url(../img/gallery3-mobile.png);
+  background-size: cover;
+  height: 182px;
+  grid-column: span 2
+}
+
 
 /* <<<<<<<<<<Responsividade>>>>>>>>>> */
 @media screen and (min-width: 768px) {
@@ -294,6 +327,22 @@ nav {
 .destinations .footer-item .button {
   width: 280px;
   
+}
+
+
+.payments .image-gallery .image.bag {
+  background: url(../img/gallery1-tablet.png);
+  background-size: cover;
+}
+
+.payments .image-gallery .image.passport {
+  background: url(../img/gallery2-tablet.png);
+    background-size: cover;
+}
+
+.payments .image-gallery .image.people {
+  background: url(../img/gallery3-tablet.png);
+    background-size: cover;
 }
 }
 
@@ -364,6 +413,10 @@ nav {
     width: 100%;
     height: 628px
   }
+
+  .payments .content-payments {
+  flex-direction: row;
+}
 }
 
 @media screen and (min-width: 1440px) {
@@ -380,5 +433,17 @@ nav {
 
   .destinations-items {
     flex-direction: row;
+  }
+
+  .payments .content-payments {
+    justify-content: space-between;
+  }
+
+  .payments .text-content {
+    width: 360px;
+  }
+
+  .payments .image-gallery {
+    width: 790px;
   }
 }
