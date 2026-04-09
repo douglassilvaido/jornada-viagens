@@ -229,11 +229,6 @@ nav {
   text-align: center;
 }
 
-.payments .content-payments {
-  display: flex;
-  flex-direction: column;
-}
-
 .payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -415,7 +410,7 @@ nav {
   }
 
   .payments .content-payments {
-  flex-direction: row;
+  display: flex ;
 }
 }
 
