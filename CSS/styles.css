@@ -257,6 +257,42 @@ nav {
   grid-column: span 2
 }
 
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.testimonial-container .text-testimonial p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.testimonial-container .profile-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.testimonial-container .profile-content img {
+  width: 86px;
+  height: 86px;
+}
+
+.testimonial-container .profile-content .profile-info h4 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--title-weight);
+  margin: 0 0 4px;
+}
+
+.testimonial-container .profile-content .profile-info .rating .star {
+  font-size: 32px;
+  color: var(--secundary-color);
+  line-height: 32px;
+}
+
 
 /* <<<<<<<<<<Responsividade>>>>>>>>>> */
 @media screen and (min-width: 768px) {
@@ -441,4 +477,8 @@ nav {
   .payments .image-gallery {
     width: 790px;
   }
+
+  .testimonial-container {
+  flex-direction: row;
+}
 }
