@@ -294,6 +294,13 @@ nav {
 }
 
 
+.bottom-hero .hero-img {
+  background-image: url(../img/bg-bottom-hero-mobile.png);
+  background-size: cover;
+  height: 472px;
+  width: 100%;
+}
+
 /* <<<<<<<<<<Responsividade>>>>>>>>>> */
 @media screen and (min-width: 768px) {
   .navigation-menu label {
@@ -375,6 +382,11 @@ nav {
   background: url(../img/gallery3-tablet.png);
     background-size: cover;
 }
+
+.bottom-hero .hero-img{
+  background-image: url(../img/bg-bottom-hero-tablet.png);
+  height: 400px;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -448,6 +460,11 @@ nav {
   .payments .content-payments {
   display: flex ;
 }
+.bottom-hero .hero-img {
+  background-image: url(../img/bg-bottom-hero-desktop.png);
+  height: 426px;
+}
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -480,5 +497,9 @@ nav {
 
   .testimonial-container {
   flex-direction: row;
+}
+
+.bottom-hero .hero-img {
+  height: 600px;
 }
 }
