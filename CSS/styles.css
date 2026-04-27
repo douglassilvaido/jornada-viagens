@@ -293,12 +293,37 @@ nav {
   line-height: 32px;
 }
 
+.bottom-hero {
+  margin: 0;
+}
 
 .bottom-hero .hero-img {
   background-image: url(../img/bg-bottom-hero-mobile.png);
   background-size: cover;
   height: 472px;
   width: 100%;
+}
+
+.footer-main {
+  text-align: center;
+  padding: 34px 0 24px;
+}
+
+.footer-main p {
+  font-weight: var(--text-weight);
+  font-size: 14px;
+  margin: 24px 0 0;
+}
+
+.footer-main .social-media-items {
+  margin: 10px 0 0;
+}
+
+.footer-main .social-media-items .list-social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
 }
 
 /* <<<<<<<<<<Responsividade>>>>>>>>>> */
@@ -412,7 +437,7 @@ nav {
   }
 
   .hero-img {
-    height: 800px;
+    height: 441px;
     background-image: url("../img/hero-desktop.jpg");
     background-size: cover;
   }
@@ -465,12 +490,35 @@ nav {
   height: 426px;
 }
 
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.footer-main .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footer-main  p {
+  font-size: 18px;
+}
+
 }
 
 @media screen and (min-width: 1440px) {
   header {
     padding: 38px 160px;
   }
+
+  .hero-img {
+    height: 661px;
+  }
+
   .card {
     width: 588px;
   }
@@ -502,4 +550,52 @@ nav {
 .bottom-hero .hero-img {
   height: 600px;
 }
+
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-main  p {
+  font-size: 24px;
+}
+
+.footer-main .social-media-items .list-social-media img {
+  width: 45px;
+  height: 45px;
+}
+
+}
+
+@media screen and (min-width:2560px) {
+
+  .hero-img {
+    height: 1102px;
+  }
+
+  .bottom-hero .hero-img {
+  height: 1066px;
+}
+
+  .footer-main .footer-content img {
+    width: 324px;
+    height: 80px;
+  
+}
+
+  .footer-main .social-media-items .list-social-media img {
+  width: 60px;
+  height: 60px;
+}
+
+  .footer-main {
+  padding: 0 160px;
+}
+
+.footer-main  p {
+  font-size: 32px;
+}
+
 }
