@@ -210,7 +210,7 @@ nav {
  
 }
 
-.destinations .item .header-item h4 {
+.destinations .item .header-item h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 24px 0;
@@ -280,7 +280,7 @@ nav {
   height: 86px;
 }
 
-.testimonial-container .profile-content .profile-info h4 {
+.testimonial-container .profile-content .profile-info h3 {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--title-weight);
