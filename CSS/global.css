@@ -113,22 +113,82 @@ section.hero {
   margin: 16px auto 32px;
 }
 
+.destinations-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+ 
+.destinations-items .item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.destinations .item .img-item {
+  width: 100%;
+  height: 368px;
+}
+
+.destinations .item.tokyo .img-item {
+  background: url(../img/tokyo-mobile.jpg);
+  background-size: cover;
+}
+
+.destinations .item.osaka .img-item {
+  background: url(../img/osaka-mobile.jpg);
+  background-size: cover;
+ 
+}
+
+.destinations .item .header-item h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 24px 0;
+}
+
+.destinations .item p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.destinations .footer-item .button {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  min-width: 280px;
+  height: 64px;
+  color: var(--text-secundary-color);
+  background-color: var(--secundary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  padding: 16px 60px;
+  border-radius: 12px;
+  text-align: center;
+}
+
 footer {
   width: 100%;
-  height: 300px;
+  height: 350px;
   background-color: var(--background-terciary-color);
   color: var(--background-primary-color);
 }
 
 .footer-main {
   text-align: center;
-  padding: 34px 0 24px;
-}
+padding: 34px 60px;}
 
 .footer-main p {
   font-weight: var(--text-weight);
   font-size: 14px;
   margin: 24px 0 0;
+  line-height: 2;
 }
 
 .footer-main .social-media-items {
@@ -154,6 +214,30 @@ footer {
   .section-title h2{
     font-size: 32px;
   }
+
+  .destinations {
+  width: 648px;
+}
+
+.destinations .item .img-item {
+  width: 100%;
+  height: 452px
+}
+
+.destinations .item.tokyo .img-item {
+  background: url(../img/tokyo-tablet-desk.jpg);
+  background-size: cover;
+}
+
+.destinations .item.osaka .img-item {
+  background: url(../img/osaka-tablet-desk.jpg);
+  background-size: cover;
+}
+
+.destinations .footer-item .button {
+  width: 280px;
+  
+}
 }
 
 @media screen and (min-width: 1024px) {
