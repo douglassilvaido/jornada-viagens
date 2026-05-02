@@ -213,25 +213,7 @@
 
 /* <<<<<<<<<<Responsividade>>>>>>>>>> */
 @media screen and (min-width: 768px) {
-  .navigation-menu label {
-    display: none;
-  }
-
-  .navigation-menu nav {
-    display: block;
-    position: static;
-    width: auto;
-  }
-
-  .list-links {
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-  }
-
-  .list-links li {
-    margin: 0;
-  }
+  
 
   .hero-img {
     height: 620px;

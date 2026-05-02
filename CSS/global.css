@@ -182,7 +182,9 @@ footer {
 
 .footer-main {
   text-align: center;
-padding: 34px 60px;}
+padding: 34px 60px;
+}
+
 
 .footer-main p {
   font-weight: var(--text-weight);
@@ -206,6 +208,26 @@ padding: 34px 60px;}
 
   section {
     width: 648px;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+    position: static;
+    width: auto;
+  }
+
+  .list-links {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .list-links li {
+    margin: 0;
   }
 
   .section-title {
@@ -237,6 +259,24 @@ padding: 34px 60px;}
 .destinations .footer-item .button {
   width: 280px;
   
+}
+
+.footer-main p {
+  font-size: 20px;
+}
+
+.footer-main {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: left;
+}
+
+
+.footer-main .footer-content {
+  display: flex;
+  flex-direction: column;
 }
 }
 

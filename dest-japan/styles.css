@@ -1,3 +1,7 @@
+.hero .section-title hr {
+  margin: 16px 0 32px;
+}
+
 .hero-img {
   width: 100%;
   height: 344px;
@@ -113,9 +117,30 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  .hero-img {
+    height: 620px;
+padding: 200px 136px; 
+ }
+
+  .hero .hero-img p {
+    font-size: 32px;
+  }
+
+  .content-payments .text-content p {
+    font-size: 22px;
+  }
+
+  .content-payments .text-content h3{
+    font-size: 28px;
+  }
     .payments .image-gallery .image.gallery-1 {
   background: url(../img/travel-packages/gallery1-tablet.png);
   background-size: cover;
+}
+
+.destinations .item p {
+  font-size: 22px;
 }
 
 .payments .image-gallery .image.gallery-2 {
@@ -127,5 +152,15 @@
 .payments .image-gallery .image.gallery-3 {
   background: url(../img/travel-packages/gallery3-tablet.png);
     background-size: cover;
+}
+
+.testimonial-container .text-testimonial p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.bottom-hero .hero-img {
+  background-image: url(../img/travel-packages/japan-bg-bottom-hero-tablet.png);
+  height: 400px;
 }
 }
